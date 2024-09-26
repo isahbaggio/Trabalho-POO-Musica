@@ -63,7 +63,7 @@
 											"top": 351,
 											"width": 190.28076171875,
 											"height": 13,
-											"text": "Usuario"
+											"text": "usuario"
 										},
 										{
 											"_type": "LabelView",
@@ -186,7 +186,7 @@
 											"top": 419,
 											"width": 190.28076171875,
 											"height": 13,
-											"text": "-albunsFavoritos: List<Album>",
+											"text": "-albunsFavoritos: List<album>",
 											"horizontalAlignment": 0
 										},
 										{
@@ -203,7 +203,7 @@
 											"top": 434,
 											"width": 190.28076171875,
 											"height": 13,
-											"text": "-musicasFavoritas: List<Musica>",
+											"text": "-musicasFavoritas: List<musica>",
 											"horizontalAlignment": 0
 										}
 									],
@@ -326,7 +326,7 @@
 											"top": 799,
 											"width": 191,
 											"height": 13,
-											"text": "Playlist"
+											"text": "playlist"
 										},
 										{
 											"_type": "LabelView",
@@ -432,7 +432,7 @@
 											"top": 852,
 											"width": 191,
 											"height": 13,
-											"text": "-musicas: List<Musica>",
+											"text": "-musicas: List<musica>",
 											"horizontalAlignment": 0
 										}
 									],
@@ -555,7 +555,7 @@
 											"top": 591,
 											"width": 191,
 											"height": 13,
-											"text": "Musica"
+											"text": "musica"
 										},
 										{
 											"_type": "LabelView",
@@ -661,7 +661,7 @@
 											"top": 644,
 											"width": 191,
 											"height": 13,
-											"text": "-genero: Genero",
+											"text": "-genero: genero",
 											"horizontalAlignment": 0
 										},
 										{
@@ -678,7 +678,7 @@
 											"top": 659,
 											"width": 191,
 											"height": 13,
-											"text": "-album: Album",
+											"text": "-album: album",
 											"horizontalAlignment": 0
 										}
 									],
@@ -801,7 +801,7 @@
 											"top": 583,
 											"width": 191,
 											"height": 13,
-											"text": "Lista"
+											"text": "lista"
 										},
 										{
 											"_type": "LabelView",
@@ -907,7 +907,7 @@
 											"top": 636,
 											"width": 191,
 											"height": 13,
-											"text": "-usuario: Usuario",
+											"text": "-usuario: usuario",
 											"horizontalAlignment": 0
 										},
 										{
@@ -924,7 +924,7 @@
 											"top": 651,
 											"width": 191,
 											"height": 13,
-											"text": "-musicas: List<Musica>",
+											"text": "-musicas: List<musica>",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1047,7 +1047,7 @@
 											"top": 775,
 											"width": 191,
 											"height": 13,
-											"text": "Genero"
+											"text": "genero"
 										},
 										{
 											"_type": "LabelView",
@@ -1153,7 +1153,7 @@
 											"top": 828,
 											"width": 191,
 											"height": 13,
-											"text": "-artistas: List<Artista>",
+											"text": "-artistas: List<artista>",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1276,7 +1276,7 @@
 											"top": 711,
 											"width": 191,
 											"height": 13,
-											"text": "Artista"
+											"text": "artista"
 										},
 										{
 											"_type": "LabelView",
@@ -1382,7 +1382,7 @@
 											"top": 764,
 											"width": 191,
 											"height": 13,
-											"text": "-generos: List<Genero>",
+											"text": "-generos: List<genero>",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1399,7 +1399,7 @@
 											"top": 779,
 											"width": 191,
 											"height": 13,
-											"text": "-albuns: List<Album>",
+											"text": "-albuns: List<album>",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1522,7 +1522,7 @@
 											"top": 519,
 											"width": 191,
 											"height": 13,
-											"text": "Album"
+											"text": "album"
 										},
 										{
 											"_type": "LabelView",
@@ -1628,7 +1628,7 @@
 											"top": 572,
 											"width": 191,
 											"height": 13,
-											"text": "-artistas: List<Artista>",
+											"text": "-artistas: List<artista>",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1645,7 +1645,7 @@
 											"top": 587,
 											"width": 191,
 											"height": 13,
-											"text": "-musicas: List<Musica>",
+											"text": "-musicas: List<musica>",
 											"horizontalAlignment": 0
 										}
 									],
@@ -4455,7 +4455,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Usuario",
+					"name": "usuario",
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
@@ -4495,7 +4495,7 @@
 							},
 							"name": "albunsFavoritos",
 							"visibility": "private",
-							"type": "List<Album>"
+							"type": "List<album>"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4505,7 +4505,7 @@
 							},
 							"name": "musicasFavoritas",
 							"visibility": "private",
-							"type": "List<Musica>"
+							"type": "List<musica>"
 						}
 					]
 				},
@@ -4515,7 +4515,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Playlist",
+					"name": "playlist",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -4577,7 +4577,7 @@
 							},
 							"name": "musicas",
 							"visibility": "private",
-							"type": "List<Musica>"
+							"type": "List<musica>"
 						}
 					]
 				},
@@ -4587,7 +4587,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Musica",
+					"name": "musica",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -4709,7 +4709,7 @@
 							},
 							"name": "genero",
 							"visibility": "private",
-							"type": "Genero"
+							"type": "genero"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4719,7 +4719,7 @@
 							},
 							"name": "album",
 							"visibility": "private",
-							"type": "Album"
+							"type": "album"
 						}
 					]
 				},
@@ -4729,7 +4729,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Lista",
+					"name": "lista",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -4833,7 +4833,7 @@
 							},
 							"name": "musicas",
 							"visibility": "private",
-							"type": "List<Musica>"
+							"type": "List<musica>"
 						}
 					]
 				},
@@ -4843,7 +4843,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Genero",
+					"name": "genero",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -4903,7 +4903,7 @@
 							},
 							"name": "artistas",
 							"visibility": "private",
-							"type": "List<Artista>"
+							"type": "List<artista>"
 						}
 					]
 				},
@@ -4913,7 +4913,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Artista",
+					"name": "artista",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -4975,7 +4975,7 @@
 							},
 							"name": "generos",
 							"visibility": "private",
-							"type": "List<Genero>"
+							"type": "List<genero>"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4985,7 +4985,7 @@
 							},
 							"name": "albuns",
 							"visibility": "private",
-							"type": "List<Album>"
+							"type": "List<album>"
 						}
 					]
 				},
@@ -4995,7 +4995,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Album",
+					"name": "album",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -5117,7 +5117,7 @@
 							},
 							"name": "artistas",
 							"visibility": "private",
-							"type": "List<Artista>"
+							"type": "List<artista>"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5127,7 +5127,7 @@
 							},
 							"name": "musicas",
 							"visibility": "private",
-							"type": "List<Musica>"
+							"type": "List<musica>"
 						}
 					]
 				}
