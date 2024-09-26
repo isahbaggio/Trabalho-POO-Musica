@@ -16,13 +16,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `lista_musica`
+-- Table structure for table `lista_msc`
 --
 
-DROP TABLE IF EXISTS `lista_musica`;
+DROP TABLE IF EXISTS `lista_msc`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `lista_musica` (
+CREATE TABLE `lista_msc` (
   `lista_id` bigint NOT NULL,
   `musica_id` bigint NOT NULL,
   KEY `FKjnl76qjna382x7eiy57407mfm` (`musica_id`),
@@ -33,12 +33,12 @@ CREATE TABLE `lista_musica` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `lista_musica`
+-- Dumping data for table `lista_msc`
 --
 
-LOCK TABLES `lista_musica` WRITE;
-/*!40000 ALTER TABLE `lista_musica` DISABLE KEYS */;
-/*!40000 ALTER TABLE `lista_musica` ENABLE KEYS */;
+LOCK TABLES `lista_msc` WRITE;
+/*!40000 ALTER TABLE `lista_msc` DISABLE KEYS */;
+/*!40000 ALTER TABLE `lista_msc` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
