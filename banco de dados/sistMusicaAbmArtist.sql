@@ -16,13 +16,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `album_artistas`
+-- Table structure for table `albm_artist`
 --
 
-DROP TABLE IF EXISTS `album_artistas`;
+DROP TABLE IF EXISTS `albm_artist`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `album_artistas` (
+CREATE TABLE `albm_artist` (
   `albuns_id` bigint NOT NULL,
   `artistas_id` bigint NOT NULL,
   KEY `FKbvyt8wnu9okgv2nywyfj0h14l` (`artistas_id`),
@@ -33,12 +33,12 @@ CREATE TABLE `album_artistas` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `album_artistas`
+-- Dumping data for table `albm_artist`
 --
 
-LOCK TABLES `album_artistas` WRITE;
-/*!40000 ALTER TABLE `album_artistas` DISABLE KEYS */;
-/*!40000 ALTER TABLE `album_artistas` ENABLE KEYS */;
+LOCK TABLES `albm_artist` WRITE;
+/*!40000 ALTER TABLE `albm_artist` DISABLE KEYS */;
+/*!40000 ALTER TABLE `albm_artist` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
